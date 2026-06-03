@@ -6,8 +6,5 @@ venv/
 env/
 .pytest_cache/
 .mypy_cache/
-outputs/
-projects/*/outputs/
-quant projects/*/outputs/
 private/
 *.egg-info/

@@ -1,0 +1,6 @@
+metric,value
+annualised_sharpe,-0.30427296207590815
+mean_monthly_return,-0.003810252901493962
+mean_ic,0.006514976095190168
+ic_information_ratio,0.02294063091352854
+data_source,synthetic: Deterministic synthetic equity data used because live market data was unavailable.

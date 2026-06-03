@@ -1,0 +1,7 @@
+metric,value
+best_model,logistic_regression
+default_rate,0.0828
+portfolio_expected_loss,146310001.80620944
+mean_pd,0.0838420564625224
+mean_lgd,0.42971999227566987
+total_ead,3400690287.0547523

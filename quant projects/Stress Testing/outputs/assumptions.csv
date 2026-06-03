@@ -1,0 +1,4 @@
+item,value
+notional,"INR 50,000,000"
+data_source,synthetic: Deterministic synthetic equity data used because live market data was unavailable.
+limitation,"Linear equity stress test ignores transaction costs, liquidity gaps, and option convexity."

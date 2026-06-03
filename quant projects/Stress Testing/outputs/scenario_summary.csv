@@ -1,0 +1,6 @@
+scenario,scenario_type,portfolio_pnl_inr,portfolio_return
+2008_global_financial_crisis,historical,-15470000.000000002,-0.30940000000000006
+2020_covid_crash,historical,-12120000.000000002,-0.24240000000000003
+2022_rate_hike_repricing,historical,-7130000.0,-0.1426
+hypothetical_it_margin_squeeze,hypothetical,-7440000.0,-0.1488
+hypothetical_rate_spike_plus_equity_selloff,hypothetical,-11670000.0,-0.2334

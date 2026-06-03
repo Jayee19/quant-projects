@@ -1,0 +1,8 @@
+metric,value
+portfolio_daily_volatility,0.010838755983852411
+portfolio_99pct_var,0.0252147169402825
+component_var_sum,0.025214716940282503
+component_var_sum_check,3.469446951953614e-18
+diversification_ratio,1.332101792707054
+pc1_explained_variance_pct,0.5719122832572745
+data_source,synthetic: Deterministic synthetic equity data used because live market data was unavailable.

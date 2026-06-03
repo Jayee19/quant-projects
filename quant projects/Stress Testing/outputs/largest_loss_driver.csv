@@ -1,0 +1,6 @@
+scenario,largest_loss_driver,pnl_inr
+2008_global_financial_crisis,RELIANCE.NS,-5040000.000000001
+2020_covid_crash,RELIANCE.NS,-3500000.0000000005
+2022_rate_hike_repricing,RELIANCE.NS,-1820000.0000000002
+hypothetical_it_margin_squeeze,TCS.NS,-2600000.0
+hypothetical_rate_spike_plus_equity_selloff,RELIANCE.NS,-3080000.0000000005

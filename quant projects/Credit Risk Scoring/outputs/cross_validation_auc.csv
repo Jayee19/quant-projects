@@ -1,0 +1,16 @@
+model,fold,auc
+logistic_regression,1,0.7652427893391749
+logistic_regression,2,0.8214089912280702
+logistic_regression,3,0.7797476537061866
+logistic_regression,4,0.7974169141877614
+logistic_regression,5,0.7935321931002277
+random_forest_stumps,1,0.7250066095101408
+random_forest_stumps,2,0.7639615729665071
+random_forest_stumps,3,0.7321573932196898
+random_forest_stumps,4,0.7908335919374622
+random_forest_stumps,5,0.7344288132625065
+gradient_boosted_stumps,1,0.7116868728833831
+gradient_boosted_stumps,2,0.7619991028708134
+gradient_boosted_stumps,3,0.7390586094617889
+gradient_boosted_stumps,4,0.7831198002098387
+gradient_boosted_stumps,5,0.7333999766505166

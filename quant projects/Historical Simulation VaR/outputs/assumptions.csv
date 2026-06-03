@@ -1,0 +1,5 @@
+item,value
+tickers,"RELIANCE.NS, TCS.NS, HDFCBANK.NS, INFY.NS, ICICIBANK.NS"
+weights,"25.00%, 20.00%, 20.00%, 20.00%, 15.00%"
+data_source,synthetic: Deterministic synthetic equity data used because live market data was unavailable.
+limitation,VaR is a quantile estimate; it does not describe losses beyond the threshold.
