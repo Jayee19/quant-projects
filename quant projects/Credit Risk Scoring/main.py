@@ -9,11 +9,11 @@ import sys
 import numpy as np
 import pandas as pd
 
-ROOT = pathlib.Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
+PROJECT_DIR = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(PROJECT_DIR))
 
-from quant_projects.metrics import auc_score, kfold_indices
-from quant_projects.models import fit_boosted_stumps, fit_logistic_regression, fit_stump_forest
+from project_metrics import auc_score, kfold_indices
+from project_models import fit_boosted_stumps, fit_logistic_regression, fit_stump_forest
 
 
 FEATURES = [

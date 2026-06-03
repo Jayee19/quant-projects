@@ -8,11 +8,11 @@ import sys
 
 import pandas as pd
 
-ROOT = pathlib.Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
+PROJECT_DIR = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(PROJECT_DIR))
 
-from quant_projects.data import DEFAULT_INDIAN_EQUITIES, daily_returns, load_prices, portfolio_returns, save_table
-from quant_projects.metrics import expected_shortfall, historical_var, parametric_var
+from project_data import DEFAULT_INDIAN_EQUITIES, daily_returns, load_prices, portfolio_returns, save_table
+from project_metrics import expected_shortfall, historical_var, parametric_var
 
 
 CONFIDENCE_LEVELS = [0.90, 0.95, 0.99]

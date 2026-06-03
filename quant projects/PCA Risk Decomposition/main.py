@@ -10,10 +10,10 @@ from statistics import NormalDist
 import numpy as np
 import pandas as pd
 
-ROOT = pathlib.Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
+PROJECT_DIR = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(PROJECT_DIR))
 
-from quant_projects.data import daily_returns, load_prices
+from project_data import daily_returns, load_prices
 
 
 TICKERS = [

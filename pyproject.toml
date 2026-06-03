@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["quant_projects"]
+packages = []

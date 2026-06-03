@@ -8,10 +8,10 @@ import sys
 
 import pandas as pd
 
-ROOT = pathlib.Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
+PROJECT_DIR = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(PROJECT_DIR))
 
-from quant_projects.options import black_scholes_price, implied_volatility_bisection
+from project_options import black_scholes_price, implied_volatility_bisection
 
 
 SPOT = 100.0

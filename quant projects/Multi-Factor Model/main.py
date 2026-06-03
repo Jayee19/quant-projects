@@ -9,11 +9,11 @@ import sys
 import numpy as np
 import pandas as pd
 
-ROOT = pathlib.Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
+PROJECT_DIR = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(PROJECT_DIR))
 
-from quant_projects.data import load_prices, save_table
-from quant_projects.metrics import sharpe_ratio, spearman_corr
+from project_data import load_prices, save_table
+from project_metrics import sharpe_ratio, spearman_corr
 
 
 TICKERS = [
