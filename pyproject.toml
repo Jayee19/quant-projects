@@ -1,0 +1,12 @@
+[project]
+name = "quant-finance-internship-portfolio"
+version = "0.1.0"
+description = "Ten quant finance projects for market risk, derivatives, research, credit, and quant development interview prep."
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5"
+]
+
+[tool.setuptools]
+packages = ["quant_projects"]
